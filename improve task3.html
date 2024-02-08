@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        nav ul{
+            width: 100%;
+        }
+
+        .container {
+            /* background-color: red; */
+            background-color: rgb(223, 232, 232);
+            display: grid;
+            /* background-color:red; */
+            /* height: 700px; */
+            width: 100%;
+            /* grid-template-columns: repeat(3 ,1fr); */
+            /* grid-template-rows: repeat(3, 1fr); */
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 67px 1fr 1fr;
+            row-gap: 12px;
+            column-gap: 12px;
+            
+            /* margin: 34px; */
+            /* padding: 34px; */
+
+        }
+
+        .logo {
+            font-size: large;
+            color: aqua;
+
+        }
+
+        nav ul {
+            display: flex;
+            /* align-items: center; */
+            justify-content: space-between;
+            padding: 0 30px;
+            margin-top: 23px;
+            list-style: none;
+        }
+
+
+
+
+
+        .item {
+            /* background-color: aqua; */
+            /* height: 122px; */
+            /* width: 122px; */
+            margin: 0 34px;
+
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            background-color: rgb(223, 232, 232);
+            grid-column-end: 4;
+/* margin-top: 23px; */
+
+        }
+
+        .item2 {
+            /* grid-column-end: 3;
+    grid-column-start: 1; */
+            grid-column: 1 / span 2;
+            /* margin-top: 34px; */
+
+        }
+
+        .item3 {
+            margin-left: 60px;
+        }
+
+        .item5 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .item6 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        button {
+            background-color: aqua;
+            border-radius: 8px;
+            padding: 0 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item1">
+            <nav>
+                <ul>
+                    <div class="logo">
+                        React Developer
+
+                    </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Page</a></li>
+                    <button><u>Join Class</u></button>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="item item2">
+            <h3>Enriching And Fun Early Years <br>Matter Preschool Curriculum</h3>
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quae esse pariatur, maxime vero porro
+                distinctio. Labore alias minus quia corrupti mollitia cum? ipsum dolor sit amet, consectetur adipisicing
+                elit. Officia quae esse pariatur, maxime vero porro
+                distinctio. Labore alias minus quia corrupti mollitia cum? ipsum dolor sit amet, consectetur adipisicing
+                elit. Officia quae esse pariatur, maxime vero porro
+                distinctio. Labore alias minus quia corrupti mollitia cum?
+        </div>
+        <div class="item "><img
+                src="https://www.pngitem.com/pimgs/m/84-840034_children-boys-girls-study-children-studying-clipart-hd.png"
+                alt="study emage" height="200px" width="200px"></div>
+        <div class="item item3 "><img
+                src="https://img.freepik.com/premium-vector/happy-cute-little-kid-boy-girl-yoga-pose_97632-2875.jpg?w=2000"
+                height="150px" width="150px"></div>
+        <div class="item item5">
+            <h3>Socio-emotional & Physical <br> Development</h3><hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit optio nemo repellendus ducimus esse
+                facilis, placeat aspernatur. Esse, similique.</p>
+        </div>
+        <div class="item item6">
+            <h3>Milestones Tracking and <br>Regular Assessments</h3>
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id aperiam explicabo quisquam
+                mollitia sunt odio unde ullam necessitatibus cum, totam maiores, ipsam similique, enim sequi qui sed
+                dolores deleniti quas fugiat. Aliquam.</p>
+        </div>
+        <div class="item"><img src="https://public.cliengage.org/wp-content/uploads/sites/10/2017/07/kayla.png" alt=""
+                height="150px" width="150px"></div>
+    </div>
+</body>
+
+</html>
