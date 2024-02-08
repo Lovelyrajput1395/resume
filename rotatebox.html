@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-image:linear-gradient(aqua,green);
+            height: 97VH;
+            width: 100VW;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+      
+.BOX{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation: helo 3s infinite;
+    border-top:50px solid blue ;
+    transition: transform 2s;
+    border-radius: 50%;
+}
+@keyframes helo{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="BOX">
+    
+    </div>
+</div>
+</body>
+</html>
+
