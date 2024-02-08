@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+background-color: rgb(236, 243, 240);
+/* color: brown; */
+/* display: inline; */
+}
+ul li{
+display: inline-block;
+padding:20px 50px;
+}
+.logo{
+padding-right: 100px;
+padding-left:30px ;
+color: rgb(90, 160, 161);
+font-size: larger;
+/* text-size-adjust: 3px; */
+/* text-indent: 100px; */
+/* line-break: loose; */
+
+}
+.hi{
+background-color: darkturquoise;
+color: rgb(22, 22, 169);
+border-radius: 8px;
+padding: 2px 7px;
+}
+
+body{
+background-color: darkturquoise;
+}
+.container{
+font-family: 'Courier New' ;
+width: 40vw;
+border-top:2px solid gray ;
+border-bottom:2px solid gray ;
+/* display: flex; */
+/* align-items: center; */
+/* display: inline-block; */
+display: inline-block;
+
+
+}
+img{
+border-radius: 50%;
+/* display: flex; */
+/* align-items: center; */
+width: 314px;
+height: 245px;
+float: right;
+background-size: cover;
+/* margin-bottom:10000px ; */
+
+/* margin-left: 81px; */
+
+margin-right: 433px;
+}
+.button{
+background-color: blue;
+color: white;
+border-radius: 7px;
+padding: 5px;
+margin: 58px 50px 10px 30px;
+}
+h3,h2{
+margin: 28px 50px 10px 30px;
+width: 30vw;
+}
+p{
+margin: 20px 50px 10px 30px;
+width: 40vw; 
+}
